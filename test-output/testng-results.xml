@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[- On Test Start]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Start]]>
+    </line>
+    <line>
+      <![CDATA[USERNAME: standard_user]]>
+    </line>
+    <line>
+      <![CDATA[PASSWORD: secret_sauce]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN BUTTON TEXT: Login]]>
+    </line>
+    <line>
+      <![CDATA[THERE IS NO STATEMENT FOR THIS ELSE BLOCK]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Success]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Start]]>
+    </line>
+    <line>
+      <![CDATA[INVENTORY DETAILS: 0: Sauce Labs Backpack :: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. :: $29.99]]>
+    </line>
+    <line>
+      <![CDATA[INVENTORY DETAILS: 1: Sauce Labs Bike Light :: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included. :: $9.99]]>
+    </line>
+    <line>
+      <![CDATA[INVENTORY DETAILS: 2: Sauce Labs Bolt T-Shirt :: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt. :: $15.99]]>
+    </line>
+    <line>
+      <![CDATA[INVENTORY DETAILS: 3: Sauce Labs Fleece Jacket :: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office. :: $49.99]]>
+    </line>
+    <line>
+      <![CDATA[INVENTORY DETAILS: 4: Sauce Labs Onesie :: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel. :: $7.99]]>
+    </line>
+    <line>
+      <![CDATA[INVENTORY DETAILS: 5: Test.allTheThings() T-Shirt (Red) :: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton. :: $15.99]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[PRODUCT FILTER: 0: Name (A to Z)]]>
+    </line>
+    <line>
+      <![CDATA[PRODUCT FILTER: 1: Name (Z to A)]]>
+    </line>
+    <line>
+      <![CDATA[PRODUCT FILTER: 2: Price (low to high)]]>
+    </line>
+    <line>
+      <![CDATA[PRODUCT FILTER: 3: Price (high to low)]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[SOCIAL LINKS TEXT: 0: Twitter]]>
+    </line>
+    <line>
+      <![CDATA[SOCIAL LINKS: 0: https://twitter.com/saucelabs]]>
+    </line>
+    <line>
+      <![CDATA[SOCIAL LINKS TEXT: 1: Facebook]]>
+    </line>
+    <line>
+      <![CDATA[SOCIAL LINKS: 1: https://www.facebook.com/saucelabs]]>
+    </line>
+    <line>
+      <![CDATA[SOCIAL LINKS TEXT: 2: LinkedIn]]>
+    </line>
+    <line>
+      <![CDATA[SOCIAL LINKS: 2: https://www.linkedin.com/company/sauce-labs/]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[PRODUCT SUCCESSFULLY FETCHED]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Success]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Start]]>
+    </line>
+    <line>
+      <![CDATA[SELECTED CARD META DESCRIPTION: Sauce Labs Onesie: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.: $7.99]]>
+    </line>
+    <line>
+      <![CDATA[REMOVE BUTTON TEXT: Remove]]>
+    </line>
+    <line>
+      <![CDATA[CONTINUE BUTTON TEXT: Continue Shopping]]>
+    </line>
+    <line>
+      <![CDATA[CHECKOUT BUTTON TEXT: Checkout]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[SHOPPING DATA SUCCESSFULLY FETCHED]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Success]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Start]]>
+    </line>
+    <line>
+      <![CDATA[CHECKOUT INFORMATION TITLE: Checkout: Your Information]]>
+    </line>
+    <line>
+      <![CDATA[FIRST NAME: SAM]]>
+    </line>
+    <line>
+      <![CDATA[LAST NAME: CURREN]]>
+    </line>
+    <line>
+      <![CDATA[POSTAL CODE: 111111]]>
+    </line>
+    <line>
+      <![CDATA[CANCEL BUTTON TEXT: Cancel]]>
+    </line>
+    <line>
+      <![CDATA[CONTINUE BUTTON TEXT: ]]>
+    </line>
+    <line>
+      <![CDATA[CHECKOUT INFORMATION SUCCESSFULLY FETCHED]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Success]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Start]]>
+    </line>
+    <line>
+      <![CDATA[CHECKOUT OVERVIEW TITLE: Checkout: Overview]]>
+    </line>
+    <line>
+      <![CDATA[CHECKOUT OVERVIEW DESCRIPTION: Sauce Labs Onesie: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.: $7.99]]>
+    </line>
+    <line>
+      <![CDATA[PAYMENT INFORMATION DATA: Payment Information:: SauceCard #31337]]>
+    </line>
+    <line>
+      <![CDATA[SHOPPING INFORMATION DATA: Shipping Information:: Free Pony Express Delivery!]]>
+    </line>
+    <line>
+      <![CDATA[PRICE: Price Total: Item total: $7.99: Tax: $0.64::Total: $8.63]]>
+    </line>
+    <line>
+      <![CDATA[CANCEL BUTTON TEXT: Cancel]]>
+    </line>
+    <line>
+      <![CDATA[FINISH BUTTON TEXT: Finish]]>
+    </line>
+    <line>
+      <![CDATA[SUCCESSFULLY CHECKOUT OVERVIEW DATA]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Success]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Start]]>
+    </line>
+    <line>
+      <![CDATA[CHECKOUT COMPLETED TITLE: Checkout: Complete!]]>
+    </line>
+    <line>
+      <![CDATA[ORDER COMPLETED MESSAGE: Thank you for your order!]]>
+    </line>
+    <line>
+      <![CDATA[RDER COMPLETED DESCRIPTION: Your order has been dispatched, and will arrive just as fast as the pony can get there!]]>
+    </line>
+    <line>
+      <![CDATA[BACK BUTTON TEXT: Back Home]]>
+    </line>
+    <line>
+      <![CDATA[TEXT LIST: ]]>
+    </line>
+    <line>
+      <![CDATA[TEXT LIST: About]]>
+    </line>
+    <line>
+      <![CDATA[TEXT LIST: Logout]]>
+    </line>
+    <line>
+      <![CDATA[CHECKOUT SUCCESSFULLY COMPLETED]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[- On Test Success]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-01-07T07:34:11 IST" name="SauceDemoAutomation Suite" finished-at="2025-01-07T07:34:36 IST" duration-ms="25543">
+    <groups>
+    </groups>
+    <test started-at="2025-01-07T07:34:11 IST" name="SauceDemoAutomation" finished-at="2025-01-07T07:34:36 IST" duration-ms="25543">
+      <class name="base.SauceDemoAutomation">
+        <test-method is-config="true" signature="start_up()[pri:0, instance:base.SauceDemoAutomation@55740540]" started-at="2025-01-07T07:34:11 IST" name="start_up" finished-at="2025-01-07T07:34:16 IST" duration-ms="4762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_up -->
+        <test-method signature="login_page()[pri:1, instance:base.SauceDemoAutomation@55740540]" started-at="2025-01-07T07:34:16 IST" name="login_page" finished-at="2025-01-07T07:34:23 IST" duration-ms="6941" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[- On Test Start]]>
+            </line>
+            <line>
+              <![CDATA[USERNAME: standard_user]]>
+            </line>
+            <line>
+              <![CDATA[PASSWORD: secret_sauce]]>
+            </line>
+            <line>
+              <![CDATA[LOGIN BUTTON TEXT: Login]]>
+            </line>
+            <line>
+              <![CDATA[THERE IS NO STATEMENT FOR THIS ELSE BLOCK]]>
+            </line>
+            <line>
+              <![CDATA[LOGIN SUCCESSFULLY]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[- On Test Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_page -->
+        <test-method signature="product_page()[pri:2, instance:base.SauceDemoAutomation@55740540]" started-at="2025-01-07T07:34:23 IST" name="product_page" finished-at="2025-01-07T07:34:27 IST" duration-ms="4331" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[- On Test Start]]>
+            </line>
+            <line>
+              <![CDATA[INVENTORY DETAILS: 0: Sauce Labs Backpack :: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. :: $29.99]]>
+            </line>
+            <line>
+              <![CDATA[INVENTORY DETAILS: 1: Sauce Labs Bike Light :: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included. :: $9.99]]>
+            </line>
+            <line>
+              <![CDATA[INVENTORY DETAILS: 2: Sauce Labs Bolt T-Shirt :: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt. :: $15.99]]>
+            </line>
+            <line>
+              <![CDATA[INVENTORY DETAILS: 3: Sauce Labs Fleece Jacket :: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office. :: $49.99]]>
+            </line>
+            <line>
+              <![CDATA[INVENTORY DETAILS: 4: Sauce Labs Onesie :: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel. :: $7.99]]>
+            </line>
+            <line>
+              <![CDATA[INVENTORY DETAILS: 5: Test.allTheThings() T-Shirt (Red) :: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton. :: $15.99]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[PRODUCT FILTER: 0: Name (A to Z)]]>
+            </line>
+            <line>
+              <![CDATA[PRODUCT FILTER: 1: Name (Z to A)]]>
+            </line>
+            <line>
+              <![CDATA[PRODUCT FILTER: 2: Price (low to high)]]>
+            </line>
+            <line>
+              <![CDATA[PRODUCT FILTER: 3: Price (high to low)]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[SOCIAL LINKS TEXT: 0: Twitter]]>
+            </line>
+            <line>
+              <![CDATA[SOCIAL LINKS: 0: https://twitter.com/saucelabs]]>
+            </line>
+            <line>
+              <![CDATA[SOCIAL LINKS TEXT: 1: Facebook]]>
+            </line>
+            <line>
+              <![CDATA[SOCIAL LINKS: 1: https://www.facebook.com/saucelabs]]>
+            </line>
+            <line>
+              <![CDATA[SOCIAL LINKS TEXT: 2: LinkedIn]]>
+            </line>
+            <line>
+              <![CDATA[SOCIAL LINKS: 2: https://www.linkedin.com/company/sauce-labs/]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[PRODUCT SUCCESSFULLY FETCHED]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[- On Test Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- product_page -->
+        <test-method signature="shopping_page()[pri:3, instance:base.SauceDemoAutomation@55740540]" started-at="2025-01-07T07:34:27 IST" name="shopping_page" finished-at="2025-01-07T07:34:29 IST" duration-ms="1701" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[- On Test Start]]>
+            </line>
+            <line>
+              <![CDATA[SELECTED CARD META DESCRIPTION: Sauce Labs Onesie: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.: $7.99]]>
+            </line>
+            <line>
+              <![CDATA[REMOVE BUTTON TEXT: Remove]]>
+            </line>
+            <line>
+              <![CDATA[CONTINUE BUTTON TEXT: Continue Shopping]]>
+            </line>
+            <line>
+              <![CDATA[CHECKOUT BUTTON TEXT: Checkout]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[SHOPPING DATA SUCCESSFULLY FETCHED]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[- On Test Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shopping_page -->
+        <test-method signature="checkout_information()[pri:4, instance:base.SauceDemoAutomation@55740540]" started-at="2025-01-07T07:34:29 IST" name="checkout_information" finished-at="2025-01-07T07:34:30 IST" duration-ms="986" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[- On Test Start]]>
+            </line>
+            <line>
+              <![CDATA[CHECKOUT INFORMATION TITLE: Checkout: Your Information]]>
+            </line>
+            <line>
+              <![CDATA[FIRST NAME: SAM]]>
+            </line>
+            <line>
+              <![CDATA[LAST NAME: CURREN]]>
+            </line>
+            <line>
+              <![CDATA[POSTAL CODE: 111111]]>
+            </line>
+            <line>
+              <![CDATA[CANCEL BUTTON TEXT: Cancel]]>
+            </line>
+            <line>
+              <![CDATA[CONTINUE BUTTON TEXT: ]]>
+            </line>
+            <line>
+              <![CDATA[CHECKOUT INFORMATION SUCCESSFULLY FETCHED]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[- On Test Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkout_information -->
+        <test-method signature="checkout_overview()[pri:5, instance:base.SauceDemoAutomation@55740540]" started-at="2025-01-07T07:34:30 IST" name="checkout_overview" finished-at="2025-01-07T07:34:30 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[- On Test Start]]>
+            </line>
+            <line>
+              <![CDATA[CHECKOUT OVERVIEW TITLE: Checkout: Overview]]>
+            </line>
+            <line>
+              <![CDATA[CHECKOUT OVERVIEW DESCRIPTION: Sauce Labs Onesie: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.: $7.99]]>
+            </line>
+            <line>
+              <![CDATA[PAYMENT INFORMATION DATA: Payment Information:: SauceCard #31337]]>
+            </line>
+            <line>
+              <![CDATA[SHOPPING INFORMATION DATA: Shipping Information:: Free Pony Express Delivery!]]>
+            </line>
+            <line>
+              <![CDATA[PRICE: Price Total: Item total: $7.99: Tax: $0.64::Total: $8.63]]>
+            </line>
+            <line>
+              <![CDATA[CANCEL BUTTON TEXT: Cancel]]>
+            </line>
+            <line>
+              <![CDATA[FINISH BUTTON TEXT: Finish]]>
+            </line>
+            <line>
+              <![CDATA[SUCCESSFULLY CHECKOUT OVERVIEW DATA]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[- On Test Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkout_overview -->
+        <test-method signature="checkout_completed()[pri:6, instance:base.SauceDemoAutomation@55740540]" started-at="2025-01-07T07:34:30 IST" name="checkout_completed" finished-at="2025-01-07T07:34:36 IST" duration-ms="5589" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[- On Test Start]]>
+            </line>
+            <line>
+              <![CDATA[CHECKOUT COMPLETED TITLE: Checkout: Complete!]]>
+            </line>
+            <line>
+              <![CDATA[ORDER COMPLETED MESSAGE: Thank you for your order!]]>
+            </line>
+            <line>
+              <![CDATA[RDER COMPLETED DESCRIPTION: Your order has been dispatched, and will arrive just as fast as the pony can get there!]]>
+            </line>
+            <line>
+              <![CDATA[BACK BUTTON TEXT: Back Home]]>
+            </line>
+            <line>
+              <![CDATA[TEXT LIST: ]]>
+            </line>
+            <line>
+              <![CDATA[TEXT LIST: About]]>
+            </line>
+            <line>
+              <![CDATA[TEXT LIST: Logout]]>
+            </line>
+            <line>
+              <![CDATA[CHECKOUT SUCCESSFULLY COMPLETED]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[- On Test Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkout_completed -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:base.SauceDemoAutomation@55740540]" started-at="2025-01-07T07:34:36 IST" name="tear_down" finished-at="2025-01-07T07:34:36 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- base.SauceDemoAutomation -->
+    </test> <!-- SauceDemoAutomation -->
+  </suite> <!-- SauceDemoAutomation Suite -->
+</testng-results>

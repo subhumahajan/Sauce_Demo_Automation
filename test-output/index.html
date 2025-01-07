@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SauceDemoAutomation_Suite" class="navigator-link">
+              <span class="suite-name border-passed">SauceDemoAutomation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SauceDemoAutomation_Suite" class="navigator-link ">
+                    <span>C:\Users\SHUBHAM\eclipse-workspace\Project_Sauce_Demo\SauceDemoAutomation.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SauceDemoAutomation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SauceDemoAutomation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SauceDemoAutomation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SauceDemoAutomation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SauceDemoAutomation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SauceDemoAutomation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SauceDemoAutomation_Suite" class="hide-methods passed suite-SauceDemoAutomation_Suite"> (hide)</a> <!-- hide-methods passed suite-SauceDemoAutomation_Suite -->
+                      <a href="#" panel-name="suite-SauceDemoAutomation_Suite" class="show-methods passed suite-SauceDemoAutomation_Suite"> (show)</a> <!-- show-methods passed suite-SauceDemoAutomation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-SauceDemoAutomation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoAutomation_Suite" title="base.SauceDemoAutomation" class="method navigator-link" hash-for-method="checkout_completed">checkout_completed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoAutomation_Suite" title="base.SauceDemoAutomation" class="method navigator-link" hash-for-method="checkout_information">checkout_information</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoAutomation_Suite" title="base.SauceDemoAutomation" class="method navigator-link" hash-for-method="checkout_overview">checkout_overview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoAutomation_Suite" title="base.SauceDemoAutomation" class="method navigator-link" hash-for-method="login_page">login_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoAutomation_Suite" title="base.SauceDemoAutomation" class="method navigator-link" hash-for-method="product_page">product_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemoAutomation_Suite" title="base.SauceDemoAutomation" class="method navigator-link" hash-for-method="shopping_page">shopping_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SauceDemoAutomation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SauceDemoAutomation_Suite" class="panel SauceDemoAutomation_Suite">
+          <div class="suite-SauceDemoAutomation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">base.SauceDemoAutomation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout_completed">
+                  </a> <!-- checkout_completed -->
+                  <span class="method-name">checkout_completed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout_information">
+                  </a> <!-- checkout_information -->
+                  <span class="method-name">checkout_information</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout_overview">
+                  </a> <!-- checkout_overview -->
+                  <span class="method-name">checkout_overview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_page">
+                  </a> <!-- login_page -->
+                  <span class="method-name">login_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="product_page">
+                  </a> <!-- product_page -->
+                  <span class="method-name">product_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopping_page">
+                  </a> <!-- shopping_page -->
+                  <span class="method-name">shopping_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemoAutomation_Suite-class-passed -->
+        </div> <!-- panel SauceDemoAutomation_Suite -->
+        <div panel-name="test-xml-SauceDemoAutomation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\SHUBHAM\eclipse-workspace\Project_Sauce_Demo\SauceDemoAutomation.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SauceDemoAutomation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.Listeners&quot;/&gt;
+    &lt;listener class-name=&quot;utilities.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SauceDemoAutomation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;base.SauceDemoAutomation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SauceDemoAutomation --&gt;
+&lt;/suite&gt; &lt;!-- SauceDemoAutomation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SauceDemoAutomation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SauceDemoAutomation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SauceDemoAutomation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SauceDemoAutomation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SauceDemoAutomation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SauceDemoAutomation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SauceDemoAutomation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SauceDemoAutomation_Suite');
+function tableData_SauceDemoAutomation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login_page')
+data.setCell(0, 2, 'base.SauceDemoAutomation')
+data.setCell(0, 3, 6941);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkout_completed')
+data.setCell(1, 2, 'base.SauceDemoAutomation')
+data.setCell(1, 3, 5589);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'product_page')
+data.setCell(2, 2, 'base.SauceDemoAutomation')
+data.setCell(2, 3, 4331);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'shopping_page')
+data.setCell(3, 2, 'base.SauceDemoAutomation')
+data.setCell(3, 3, 1701);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkout_information')
+data.setCell(4, 2, 'base.SauceDemoAutomation')
+data.setCell(4, 3, 986);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkout_overview')
+data.setCell(5, 2, 'base.SauceDemoAutomation')
+data.setCell(5, 3, 432);
+window.suiteTableData['SauceDemoAutomation_Suite']= { tableData: data, tableDiv: 'times-div-SauceDemoAutomation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <div id="times-div-SauceDemoAutomation_Suite">
+              </div> <!-- times-div-SauceDemoAutomation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SauceDemoAutomation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SauceDemoAutomation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">product_page</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">- On Test Start</span>
+                <span class="reporter-method-output">INVENTORY DETAILS: 0: Sauce Labs Backpack :: carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. :: $29.99</span>
+                <span class="reporter-method-output">INVENTORY DETAILS: 1: Sauce Labs Bike Light :: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included. :: $9.99</span>
+                <span class="reporter-method-output">INVENTORY DETAILS: 2: Sauce Labs Bolt T-Shirt :: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt. :: $15.99</span>
+                <span class="reporter-method-output">INVENTORY DETAILS: 3: Sauce Labs Fleece Jacket :: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office. :: $49.99</span>
+                <span class="reporter-method-output">INVENTORY DETAILS: 4: Sauce Labs Onesie :: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel. :: $7.99</span>
+                <span class="reporter-method-output">INVENTORY DETAILS: 5: Test.allTheThings() T-Shirt (Red) :: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton. :: $15.99</span>
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">PRODUCT FILTER: 0: Name (A to Z)</span>
+                <span class="reporter-method-output">PRODUCT FILTER: 1: Name (Z to A)</span>
+                <span class="reporter-method-output">PRODUCT FILTER: 2: Price (low to high)</span>
+                <span class="reporter-method-output">PRODUCT FILTER: 3: Price (high to low)</span>
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">SOCIAL LINKS TEXT: 0: Twitter</span>
+                <span class="reporter-method-output">SOCIAL LINKS: 0: https://twitter.com/saucelabs</span>
+                <span class="reporter-method-output">SOCIAL LINKS TEXT: 1: Facebook</span>
+                <span class="reporter-method-output">SOCIAL LINKS: 1: https://www.facebook.com/saucelabs</span>
+                <span class="reporter-method-output">SOCIAL LINKS TEXT: 2: LinkedIn</span>
+                <span class="reporter-method-output">SOCIAL LINKS: 2: https://www.linkedin.com/company/sauce-labs/</span>
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">PRODUCT SUCCESSFULLY FETCHED</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">- On Test Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login_page</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">- On Test Start</span>
+                <span class="reporter-method-output">USERNAME: standard_user</span>
+                <span class="reporter-method-output">PASSWORD: secret_sauce</span>
+                <span class="reporter-method-output">LOGIN BUTTON TEXT: Login</span>
+                <span class="reporter-method-output">THERE IS NO STATEMENT FOR THIS ELSE BLOCK</span>
+                <span class="reporter-method-output">LOGIN SUCCESSFULLY</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">- On Test Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">shopping_page</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">- On Test Start</span>
+                <span class="reporter-method-output">SELECTED CARD META DESCRIPTION: Sauce Labs Onesie: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.: $7.99</span>
+                <span class="reporter-method-output">REMOVE BUTTON TEXT: Remove</span>
+                <span class="reporter-method-output">CONTINUE BUTTON TEXT: Continue Shopping</span>
+                <span class="reporter-method-output">CHECKOUT BUTTON TEXT: Checkout</span>
+                <span class="reporter-method-output"> </span>
+                <span class="reporter-method-output">SHOPPING DATA SUCCESSFULLY FETCHED</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">- On Test Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkout_completed</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">- On Test Start</span>
+                <span class="reporter-method-output">CHECKOUT COMPLETED TITLE: Checkout: Complete!</span>
+                <span class="reporter-method-output">ORDER COMPLETED MESSAGE: Thank you for your order!</span>
+                <span class="reporter-method-output">RDER COMPLETED DESCRIPTION: Your order has been dispatched, and will arrive just as fast as the pony can get there!</span>
+                <span class="reporter-method-output">BACK BUTTON TEXT: Back Home</span>
+                <span class="reporter-method-output">TEXT LIST: </span>
+                <span class="reporter-method-output">TEXT LIST: About</span>
+                <span class="reporter-method-output">TEXT LIST: Logout</span>
+                <span class="reporter-method-output">CHECKOUT SUCCESSFULLY COMPLETED</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">- On Test Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkout_information</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">- On Test Start</span>
+                <span class="reporter-method-output">CHECKOUT INFORMATION TITLE: Checkout: Your Information</span>
+                <span class="reporter-method-output">FIRST NAME: SAM</span>
+                <span class="reporter-method-output">LAST NAME: CURREN</span>
+                <span class="reporter-method-output">POSTAL CODE: 111111</span>
+                <span class="reporter-method-output">CANCEL BUTTON TEXT: Cancel</span>
+                <span class="reporter-method-output">CONTINUE BUTTON TEXT: </span>
+                <span class="reporter-method-output">CHECKOUT INFORMATION SUCCESSFULLY FETCHED</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">- On Test Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkout_overview</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">- On Test Start</span>
+                <span class="reporter-method-output">CHECKOUT OVERVIEW TITLE: Checkout: Overview</span>
+                <span class="reporter-method-output">CHECKOUT OVERVIEW DESCRIPTION: Sauce Labs Onesie: Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.: $7.99</span>
+                <span class="reporter-method-output">PAYMENT INFORMATION DATA: Payment Information:: SauceCard #31337</span>
+                <span class="reporter-method-output">SHOPPING INFORMATION DATA: Shipping Information:: Free Pony Express Delivery!</span>
+                <span class="reporter-method-output">PRICE: Price Total: Item total: $7.99: Tax: $0.64::Total: $8.63</span>
+                <span class="reporter-method-output">CANCEL BUTTON TEXT: Cancel</span>
+                <span class="reporter-method-output">FINISH BUTTON TEXT: Finish</span>
+                <span class="reporter-method-output">SUCCESSFULLY CHECKOUT OVERVIEW DATA</span>
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">- On Test Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SauceDemoAutomation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SauceDemoAutomation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">base.SauceDemoAutomation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">start_up</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login_page</span>
+                <span class="method-start">4824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">product_page</span>
+                <span class="method-start">11810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shopping_page</span>
+                <span class="method-start">16155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkout_information</span>
+                <span class="method-start">17868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkout_overview</span>
+                <span class="method-start">18858 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkout_completed</span>
+                <span class="method-start">19292 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tear_down</span>
+                <span class="method-start">24881 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
